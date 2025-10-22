@@ -6,8 +6,6 @@ Thumbs.db
 
 # === Archivos de entorno / configuración sensible ===
 .env
-config.php
-app/model/db.php
 composer.lock
 
 # === Dependencias de Composer ===
