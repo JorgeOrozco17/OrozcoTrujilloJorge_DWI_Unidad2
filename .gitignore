@@ -1,0 +1,42 @@
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# === Archivos de entorno / configuración sensible ===
+.env
+config.php
+app/model/db.php
+composer.lock
+
+# === Dependencias de Composer ===
+/vendor/
+
+# === Archivos temporales o de caché ===
+/tmp/
+/cache/
+/logs/
+/session/
+
+# === Archivos de Docker ===
+/db_data/
+*.pid
+
+# === Archivos de IDE ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === Archivos del sistema operativo ===
+ehthumbs.db
+Icon?
+desktop.ini
+
+# === Archivos generados por contenedores ===
+/node_modules/
+docker-compose.override.yml
+
+# === Archivos específicos de despliegue ===
+/dist/
+/build/
