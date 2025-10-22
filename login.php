@@ -1,8 +1,5 @@
 <?php
-  include 'head.php';
   require_once __DIR__ . '/app/controller/UsuarioController.php';
-
-  session_start();
   $mensaje = "";
 
   if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -25,7 +22,7 @@
       }
   }
 ?>
-
+<?php include 'head.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">

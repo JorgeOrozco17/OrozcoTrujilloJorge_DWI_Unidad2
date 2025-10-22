@@ -1,8 +1,8 @@
 <?php
 // Parámetros de conexión
-$servidor = "localhost";
+$servidor = "db";
 $usuario = "root";
-$contrasena = "";
+$contrasena = "root";
 $basededatos = "cursos";
 
 // Crear conexión
